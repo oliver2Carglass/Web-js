@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDEX</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+
+    <header>
+        <nav>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="excel.html">Excel</a></li>
+        </ul>
+        </nav>
+    </header>
+    <main>
+        <form name="mainform"  id="main-form">
+            <label for="firstname">First Name:</label>
+            <input type="text" id="first-name" name="firstname" required><br>
+
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="last-name" name="lastname" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="adress">adress:</label>
+            <input type="text" id="adress" name="adress" required><br>
+
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" required><br>
+
+            <label for="province">Province:</label>
+            <input type="text" id="province" name="province" required><br>
+
+            <input type="radio" id="premium" name="membership" value="premium" checked>
+            <label for="premium">Premium Membership</label>
+
+            <input type="radio" id="standard" name="membership" value="standard">
+            <label for="standard">Standard Membership</label>
+
+            <input type="radio" id="basic" name="membership" value="basic">
+            <label for="basic">Basic Membership</label>
+
+            
+            <label><input type="reset" value="Clear"></label>
+            <label><input type="submit" value="Submit"></label>
+        </form>
+        <div>
+            <p id="output"></p>
+        <!-- here is where the user should see the result (output) -->
+        </div>
+
+    </main>
+    <footer>
+        <p>
+        ILAC & EFREI - HTML, CSS, and JavaScript Assignment - Jérémy VIOT & Baptiste Le Callonnec
+        </p>
+    </footer>
+    <script src="js/script.js"></script>
+ 
+    
+</body>
+</html>
